@@ -1,0 +1,37 @@
+{
+  "name": "Kivi-box-test",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://github.com/IhorRykun/Kivi-box-test/",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /Kivi-box-test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IhorRykun/Kivi-box-test"
+  },
+  "keywords": [],
+  "author": "ihor rykun <ihorrykun@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IhorRykun/Kivi-box-test"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "ci": "^2.3.0",
+    "jquery": "^3.7.1",
+    "modern-normalize": "^1.1.0",
+    "photoswipe": "^5.4.3",
+    "slick": "^1.12.2",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.0.5"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
