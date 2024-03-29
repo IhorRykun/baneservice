@@ -1,7 +1,8 @@
 html,
 body {
-  font-size: 24px;
-  font-family: 'Bebas Neue', sans-serif;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   position: relative;
@@ -58,19 +59,19 @@ img {
   max-width: 100%;
 }
 .container {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
   width: 100vw;
   @media screen and (max-width: 767px) {
-    max-width: 450px;
+    max-width: 360px;
   }
 
   @media screen and (min-width: 768px) {
     width: 738px;
   }
   @media screen and (min-width: 1200px) {
-    width: 1170px;
+    width: 1440px;
   }
 }
 .display-nan {

@@ -1,16 +1,22 @@
 .header {
-  background-color: var(--color--dark-green);
-  padding-top: 24px;
+  background-image: url(../../src/images/main/main-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 24px 64px;
 }
 
 .header__wrapper {
   display: flex;
   align-items: center;
 }
+.logo {
+  display: block;
+}
+
 .nav {
   display: flex;
   align-items: center;
-
+  margin-left: 246px;
   &__list {
     display: flex;
     text-align: center;
@@ -29,5 +35,6 @@
     color: var(--color_text-white);
     padding: 16px 32px 16px 32px;
     border-radius: 61px;
+    margin-left: auto;
   }
 }

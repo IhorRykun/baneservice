@@ -1,0 +1,37 @@
+.workers {
+  padding-top: 138px;
+  position: relative;
+
+  &__title {
+    font-size: 56px;
+    line-height: 110%;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--color_text-white);
+    width: 976px;
+    margin-bottom: 32px;
+    &-span {
+      color: #bad862;
+    }
+  }
+  &__text {
+    display: block;
+    padding-left: 435px;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #d2dbd3;
+    &::first-letter {
+      padding-left: 140px;
+    }
+  }
+  &__link {
+    padding: 8px 16px;
+    color: var(--color_text-white);
+    border: 1px solid var(--color_text-white);
+    border-radius: 108px;
+    position: absolute;
+    top: 138px;
+    right: 64px;
+  }
+}
