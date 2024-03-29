@@ -1,21 +1,21 @@
 {
-  "name": "Kivi-box-test",
+  "name": "baneservice",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/IhorRykun/Kivi-box-test/",
+  "homepage": "https://github.com/IhorRykun/baneservice/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Kivi-box-test/"
+    "build": "parcel build src/*.html --public-url /baneservice/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IhorRykun/Kivi-box-test"
+    "url": "git+https://github.com/IhorRykun/baneservice"
   },
   "keywords": [],
   "author": "ihor rykun <ihorrykun@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/IhorRykun/Kivi-box-test"
+    "url": "https://github.com/IhorRykun/baneservice"
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
