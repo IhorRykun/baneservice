@@ -2,15 +2,24 @@
   background-image: url(../../src/images/main/main-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 24px 64px;
+  background-color: #eae5da;
+  padding: 24px 0;
+  z-index: 0;
+  position: relative;
 }
 
 .header__wrapper {
   display: flex;
   align-items: center;
 }
+
 .logo {
   display: block;
+
+  &:hover {
+    background-color: var(--color--fair_green);
+    transform: scale(1.1);
+  }
 }
 
 .nav {
@@ -26,6 +35,12 @@
     &__link {
       color: var(--color_text-white);
       padding: 4px;
+      display: block;
+      &:hover,
+      &:focus {
+        transform: scale(1.1);
+        color: var(--color--fair_green);
+      }
     }
   }
 
@@ -36,5 +51,10 @@
     padding: 16px 32px 16px 32px;
     border-radius: 61px;
     margin-left: auto;
+    &:hover,
+    &:focus {
+      transform: scale(1.1);
+      background-color: var(--color--fair_green);
+    }
   }
 }
