@@ -33,5 +33,10 @@
     position: absolute;
     top: 138px;
     right: 64px;
+    &:hover,
+    &:focus {
+      background-color: var(--color--fair_green);
+      transform: scale(1.1);
+    }
   }
 }

@@ -2,6 +2,7 @@
   background-image: url(../../src/images/main/main-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+
   background-color: #eae5da;
   padding: 24px 0;
   z-index: 0;
@@ -20,6 +21,7 @@
   &:hover {
     fill: var(--color--fair_green);
     transform: scale(1.1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
@@ -41,6 +43,7 @@
       &:focus {
         transform: scale(1.1);
         color: var(--color--fair_green);
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
       }
     }
   }
@@ -56,6 +59,7 @@
     &:focus {
       transform: scale(1.1);
       background-color: var(--color--fair_green);
+      transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
 }

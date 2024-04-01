@@ -11,6 +11,25 @@
 }
 .sidebar {
   width: 448px;
+
+  &__text {
+    border: 1px solid #1f4a21;
+    border-radius: 32px;
+    width: 87px;
+    padding: 8px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__link {
+    display: flex;
+    width: 87px;
+    font-size: 14px;
+    line-height: 120%;
+    font-weight: 400;
+    color: #1f4a21;
+  }
 }
 .container-text-flex {
   display: flex;
@@ -45,6 +64,12 @@
   width: 256px;
   height: 54px;
   margin-top: 48px;
+
+  &:hover,
+  &:focus {
+    color: var(--color_text-white);
+    transform: scale(1.1);
+  }
 }
 
 .about--text-1 {
@@ -74,6 +99,7 @@
   width: 304px;
 
   &-title {
+    position: relative;
     margin-bottom: 8px;
     color: #1f4a21;
     font-size: 96px;
@@ -86,4 +112,28 @@
     font-weight: 400;
     color: #8c8c8c;
   }
+}
+
+.aft_1:after {
+  content: '+';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 60px;
+}
+
+.aft_2:after {
+  content: '%';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 62px;
+}
+
+.aft_3:after {
+  content: 'K';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 158px;
 }
