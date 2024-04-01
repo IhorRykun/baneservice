@@ -15,9 +15,10 @@
 
 .logo {
   display: block;
+  fill: #fff;
 
   &:hover {
-    background-color: var(--color--fair_green);
+    fill: var(--color--fair_green);
     transform: scale(1.1);
   }
 }

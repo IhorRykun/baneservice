@@ -1,0 +1,27 @@
+.footer {
+  padding: 80px 64px 24px 64px;
+  background-color: #eae5da;
+
+  &__wrapper {
+    padding-right: 336px;
+    padding-bottom: 104px;
+  }
+
+  &__title {
+    font-size: 72px;
+    line-height: 110%;
+    font-weight: 400;
+    color: #1f4a21;
+    font-style: italic;
+    &-span {
+      font-weight: 600;
+      font-style: normal;
+    }
+  }
+
+  &__button_list {
+    margin-top: 40px;
+    display: flex;
+    column-gap: 16px;
+  }
+}
