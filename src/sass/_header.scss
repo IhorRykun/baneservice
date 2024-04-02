@@ -29,6 +29,33 @@
   display: flex;
   align-items: center;
   margin-left: 246px;
+
+  &__span-button {
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    display: block;
+    cursor: pointer;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 2px;
+      margin-top: -8px;
+      background-color: #fff;
+      cursor: pointer;
+    }
+    &::before {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 2px;
+      margin-top: 12px;
+      background-color: #fff;
+      cursor: pointer;
+    }
+  }
   &__list {
     display: flex;
     text-align: center;

@@ -71,11 +71,19 @@ img {
     width: 738px;
   }
   @media screen and (min-width: 1200px) {
-    width: 1440px;
+    width: 1170px;
+  }
+
+  @media screen and (min-width: 1400px) {
+    width: 1400px;
   }
 }
 .display-nan {
   display: none;
+}
+
+.is-open {
+  display: block;
 }
 
 .scroll {
