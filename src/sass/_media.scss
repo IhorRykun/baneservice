@@ -155,6 +155,7 @@
 .about {
   @media screen and (max-width: 767px) {
     padding-top: 80px;
+    padding-bottom: 72px;
   }
 
   &__wrapper-flex {
@@ -194,9 +195,11 @@
   }
   &__number__list {
     @media screen and (max-width: 767px) {
+      gap: 0;
       margin-top: 32px;
       display: flex;
       flex-direction: column;
+      row-gap: 32px;
     }
   }
 
@@ -211,6 +214,31 @@
         font-style: italic;
       }
     }
+  }
+}
+
+.aft_1:after {
+  @media screen and (max-width: 767px) {
+    right: 200px;
+  }
+}
+
+.aft_2:after {
+  @media screen and (max-width: 767px) {
+    right: 200px;
+  }
+}
+.aft_3:after {
+  @media screen and (max-width: 767px) {
+    right: 242px;
+  }
+}
+
+.about__number__item-text {
+  @media screen and (max-width: 767px) {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
   }
 }
 .about__container-right-title {
@@ -235,5 +263,84 @@
 .container-text-flex {
   @media screen and (max-width: 767px) {
     display: block;
+  }
+}
+
+.footer {
+  @media screen and (max-width: 767px) {
+    padding: 0;
+    padding-top: 80px;
+    padding-bottom: 24px;
+  }
+
+  &__wrapper {
+    @media screen and (max-width: 767px) {
+      padding: 0;
+    }
+  }
+
+  &__title {
+    @media screen and (max-width: 767px) {
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 110%;
+      width: 100%;
+    }
+  }
+
+  &__button_list {
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+      row-gap: 16px;
+      margin-bottom: 64px;
+    }
+  }
+
+  &__button_item {
+    @media screen and (max-width: 767px) {
+      padding: 0;
+      width: 100%;
+      height: 54px;
+      text-align: center;
+      padding-top: 16px;
+    }
+  }
+}
+
+.footer__social-wrapper {
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
+.footer__social__list {
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 8px;
+  }
+}
+
+.footer__social_link {
+  @media screen and (max-width: 767px) {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+  }
+}
+.footer__social_item {
+  @media screen and (max-width: 767px) {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+  }
+}
+
+.social__list-right {
+  @media screen and (max-width: 767px) {
+    justify-content: center;
+    gap: 8px;
   }
 }
