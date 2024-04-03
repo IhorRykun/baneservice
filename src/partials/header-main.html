@@ -17,6 +17,9 @@
    <span class="nav__span-button">
 
    </span>
+   <svg class="svg--close display-nan" width="18" height="18">
+    <use href="./images/sprite.svg#icon-cross"></use>
+   </svg>
   </div>
   <main class="main">
    <div class="wrapper-main">
@@ -71,8 +74,8 @@
         <img src="./images/lead/lead_1@2x.jpg" alt="img_lead_1" />
 
        </picture>
-       <!-- <img class=" lead__img" srcset="./images/lead/lead_1.jpg 1x, ./images/lead/lead_1@2x.jpg 2x"
-         src="./images/lead/lead_1.jpg" alt="img_lead_1" loading="lazy"> -->
+       <img class=" lead__img" srcset="./images/lead/lead_1.jpg 1x, ./images/lead/lead_1@2x.jpg 2x"
+        src="./images/lead/lead_1.jpg" alt="img_lead_1" loading="lazy">
        <div class="wrapper_button_helmet">
         <p class="text__helmet">FYLL HJELMEN</p>
         <button class="button__helmet"><svg width="12" height="12">
@@ -86,6 +89,8 @@
        </h2>
        <p class="lead__special">Energimontør</p>
        <picture class=" lead__img">
+        <source media="(max-width: 767px)" srcset="./images/lead/lead_2@2x.jpg" loading="lazy" alt="img_lead_2"
+         type="image" />
         <source media="(max-width: 767px)" srcset="./images/lead/lead_2@2x.jpg" loading="lazy" alt="img_lead_2"
          type="image" />
         <source srcset="./images/lead/lead_2.jpg" media="(min-width: 768px)" loading="lazy" alt="img_lead_2" />
