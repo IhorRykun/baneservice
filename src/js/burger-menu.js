@@ -1,7 +1,6 @@
-const btnBurger = document.querySelector('[data-menu-button]');
-const modal = document.querySelector('[data-menu]');
+const btnBurger = document.querySelector('.nav__span-button');
+const modal = document.querySelector('.nav');
 
 btnBurger.addEventListener('click', () => {
-  modal.classList.toggle('is-open');
-
+  modal.classList.toggle('display-nan');
 });

@@ -36,6 +36,7 @@
     background-color: #fff;
     display: block;
     cursor: pointer;
+    z-index: 40;
 
     &::after {
       content: '';
@@ -89,4 +90,31 @@
       transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   }
+}
+
+.main__img-container {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  width: 104px;
+  height: 104px;
+  background-color: rgba(140, 140, 140, 0.5);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  &:hover .arrow__svg {
+    fill: var(--color--fair_green);
+  }
+}
+
+.arrow__svg {
+  fill: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

@@ -6,26 +6,50 @@
 .header__wrapper {
   @media screen and (max-width: 767px) {
     display: block;
+    position: relative;
+    z-index: 10;
   }
 }
 .nav {
   @media screen and (max-width: 767px) {
     margin-left: 0;
-    display: none;
+    padding-top: 40px;
+    justify-content: center;
+  }
+
+  &__button_link {
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+}
+
+.logo {
+  @media screen and (max-width: 767px) {
+    display: block;
+    width: 132px;
   }
 }
 
 .nav__list {
   @media screen and (max-width: 767px) {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     display: block;
     font-size: 40px;
     font-weight: 400;
     font-style: italic;
-    &__item {
-      @media screen and (max-width: 767px) {
-        margin-top: 40px;
-      }
-    }
+  }
+}
+
+.nav__item {
+  @media screen and (max-width: 767px) {
+    margin-top: 24px;
+  }
+  &:first-child {
+    margin-top: 0;
   }
 }
 .nav__span-button {
@@ -82,6 +106,7 @@
 
 .main__button-faire {
   @media screen and (max-width: 767px) {
+    max-width: 312px;
     width: 100%;
   }
 }
@@ -138,17 +163,41 @@
 .lead {
   @media screen and (max-width: 767px) {
     padding-top: 64px;
-    padding-bottom: 80px;
+    padding-bottom: 320px;
   }
 
   &__list {
     @media screen and (max-width: 767px) {
-      display: block;
+      grid-template-columns: 1fr;
     }
   }
   &__item {
-    margin-top: 20px;
-    display: block;
+    @media screen and (max-width: 767px) {
+      display: flex;
+      flex-direction: column;
+      flex-direction: column-reverse;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    &-text {
+      @media screen and (max-width: 767px) {
+        font-size: 24px;
+        line-height: 110%;
+      }
+    }
+  }
+  &__img {
+    @media screen and (max-width: 767px) {
+      max-width: 312px;
+      width: 100%;
+    }
+  }
+  &__special {
+    @media screen and (max-width: 767px) {
+      font-size: 12px;
+      text-transform: uppercase;
+    }
   }
 }
 
@@ -342,5 +391,24 @@
   @media screen and (max-width: 767px) {
     justify-content: center;
     gap: 8px;
+  }
+}
+
+.wrapper_button_helmet {
+  @media screen and (max-width: 767px) {
+    bottom: 24px;
+  }
+}
+
+.display-nan {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+.arrow {
+  @media screen and (max-width: 767px) {
+    width: 80px;
+    height: 80px;
   }
 }
