@@ -54,10 +54,12 @@
     font-size: 40px;
     font-weight: 400;
     font-style: italic;
+    text-transform: uppercase;
   }
   @media screen and (min-width: 768px) and(max-width: 1199px) {
     font-size: 16px;
     gap: 10px;
+    text-transform: uppercase;
   }
 }
 

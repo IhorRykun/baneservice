@@ -2,18 +2,23 @@
 
  <div class="container">
   <div class="header__wrapper" data-aos="flip-down">
-   <a class="logo" href="#"><svg width="192" height="32">
+   <a class="logo" href="./index.html"><svg width="192" height="32" alt="logo">
      <use href="./images/sprite.svg#logo"></use>
     </svg></a>
    <nav class="nav display-nan " data-aos="zoom-in">
     <ul class="nav__list ">
-     <li class="nav__item"><a class="nav__item__link" href="#">stilling</a></li>
-     <li class="nav__item"><a class="nav__item__link" href="#">Om oss</a></li>
-     <li class="nav__item"><a class="nav__item__link" href="#">Benefits</a></li>
-     <li class="nav__item"><a class="nav__item__link" href="#">Testimonial</a></li>
+     <li class="nav__item"><a class="nav__item__link" href="https://www.baneservice.no/produkter-tjenester"
+       alt="stilling">stilling</a>
+     </li>
+     <li class="nav__item"><a class="nav__item__link" href="https://www.baneservice.no/om-oss" alt="Om oss">Om oss</a>
+     </li>
+     <li class="nav__item"><a class="nav__item__link" href="https://www.baneservice.no/baerekraft"
+       alt="Benefits">Benefits</a></li>
+     <li class="nav__item"><a class="nav__item__link" href="https://www.baneservice.no/produkter-tjenester"
+       alt="Testimonial">Testimonial</a></li>
     </ul>
    </nav>
-   <a class="nav__button_link" href="#">Fyll hjelmen</a>
+   <a class="nav__button_link" href="https://www.baneservice.no/karriere" alt="Fyll hjelmen">Fyll hjelmen</a>
    <span class="nav__span-button">
 
    </span>
@@ -31,13 +36,16 @@
       utdannelsen, og for deg
       med
       lang erfaring.</p>
-     <a class="main__button-faire" href="#">Fyll hjelmen</a>
+     <a class="main__button-faire" href="https://www.baneservice.no/karriere" alt="Fyll hjelmen">Fyll hjelmen</a>
     </div>
    </div>
    <div class="main__img-container">
     <a href="https://youtu.be/sheB2TqaSOE?si=S6fdYDCRv0klxlkp" target="_blank">
-     <img class="main__img" srcset='./images/main/main_1.jpg 1x, ./images/main/main_1@2x.jpg 2x' alt="main_video"
-      loading="lazy" src="./images/main/main_1.jpg">
+     <picture class="main__img">
+      <source media="(max:width:767px)" srcset="./images/main/main_mobile.jpg">
+      <img class="main__img" srcset='./images/main/main_1.jpg 1x, ./images/main/main_1@2x.jpg 2x' alt="main_video"
+       loading="lazy" src="./images/main/main_1.jpg">
+     </picture>
      <div class="arrow">
       <svg class="arrow__svg" width="21" height="24">
        <use href="./images/sprite.svg#icon-Vector"></use>
