@@ -225,9 +225,9 @@
       grid-template-columns: 1fr;
     }
     @media screen and (min-width: 768px) and(max-width:1199px) {
-      grid-template-columns: repeat(2, 340px);
+      grid-template-columns: repeat(2, 344px);
+      grid-auto-rows: 210px;
       gap: 16px;
-      grid-auto-rows: 320px;
     }
   }
   &__item {
@@ -545,7 +545,7 @@
     bottom: 24px;
   }
   @media screen and (min-width: 768px) and(max-width:1199px) {
-    bottom: 130px;
+    bottom: 16px;
   }
 }
 
@@ -571,5 +571,66 @@
   }
   @media screen and (min-width: 768px) {
     display: none;
+  }
+}
+
+.lead_item-lost {
+  @media screen and (max-width: 767px) {
+    // display: flex;
+    // flex-direction: column;
+    display: block;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding: 0;
+  }
+
+  &-img {
+    @media screen and (max-width: 767px) {
+      width: 120px;
+      height: 20px;
+      margin: 0;
+      margin-bottom: 124px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      margin: 0;
+    }
+  }
+  &-title {
+    @media screen and (max-width: 767px) {
+      font-size: 18px;
+      line-height: 110%;
+      font-weight: 500;
+    }
+    @media screen and (min-width: 768px) and(max-width:1199px) {
+      font-size: 22px;
+      font-weight: 400;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      font-size: 18px;
+    }
+  }
+  &-text {
+    @media screen and (max-width: 767px) {
+      font-size: 12px;
+      line-height: 150%;
+      font-weight: 300;
+      margin-bottom: 4px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      font-size: 12px;
+      line-height: 150%;
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+  }
+  &-link {
+    @media screen and (max-width: 767px) {
+      font-size: 16px;
+      line-height: 140%;
+      font-weight: 400;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      padding: 8px 0;
+    }
   }
 }

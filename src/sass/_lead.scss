@@ -63,7 +63,49 @@
   border-radius: 50%;
   width: 20px;
   height: 20px;
+  cursor: pointer;
+  padding-left: 4px;
+  z-index: 20;
 }
 .text__helmet {
   color: var(--color_text-white);
+}
+
+.lead_item-lost {
+  background-color: var(--color--fair_green);
+  display: flex;
+  flex-direction: column;
+
+  &-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 110%;
+    color: #1f4a21;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  &-text {
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    margin-bottom: 32px;
+  }
+
+  &-link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1f4a21;
+    border-radius: 29px;
+    padding: 16px 0;
+    color: #1f4a21;
+  }
+}
+
+.lead_item-lost-img {
+  width: 120px;
+  height: 20px;
+  margin-bottom: 134px;
 }
