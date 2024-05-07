@@ -1,4 +1,7 @@
 .main {
+  background-image: url(../../src/images/main/main-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 64px 0 118px 0;
 
   &__title {
